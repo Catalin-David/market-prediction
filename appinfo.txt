@@ -1,0 +1,9 @@
+This Python application is designed to predict future stock market prices using historical data. 
+
+It's a basic example of how machine learning, specifically linear regression, can be applied to financial datasets. 
+
+The script, intended primarily for educational and demonstration purposes, illustrates the fundamental steps of data loading, preprocessing, model training, prediction, and evaluation.
+
+ It processes data with Pandas, trains a model with scikit-learn, and evaluates predictions.
+
+The project includes a requirements.txt for easy library installation.
