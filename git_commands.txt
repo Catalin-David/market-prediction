@@ -1,0 +1,21 @@
+Git commands used throughout this project:
+
+git init - initialise the local git repository
+
+git add . - add all the changes to the staging area
+
+git commit -m "commit message here" - create a commit with the changes inside the staging area
+
+git remote add origin https://github.com/Catalin-David/market-prediction - link the local repo to the remote repo
+
+git push origin branch_name (master, feature/...) - push changes from local branch to remote branch
+
+git pull origin branch_name - pull changes from remote branch to local branch
+
+git checkout -b branch_name - create a new branch based on the current branch and switch to It
+
+git rebase master - rebase the current branch on the master branch to be up to date with the branch on which you want to merge later before adding more work. (to avoid future conflicts)
+
+git cherry-pick commithash - pick a commit from a branch and recreate its changes on the current branch
+
+git status - get the status of the repository, branch and the working space
